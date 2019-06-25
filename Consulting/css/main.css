@@ -1,0 +1,469 @@
+
+
+/****Section1****/
+
+.header {
+    background: url("../img/Illustration.png") no-repeat center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+.header .firstly {
+    padding-top: 12px;
+}
+.header .logo {
+    width: 234px;
+    height: 40px;
+    margin-left: -100px;
+}
+
+.header .number {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: rgb(17,122,247);
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+.header .nav-item {
+    font-size: 16px;
+    color: rgb(66,81,91);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.header .button-one {
+    font-size: 16px;
+    color: rgb(17,122,247);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    width: 167px;
+    height: 46px;
+    border-radius: 15px;
+    border: 2px solid rgb(17,122,247);
+    background: transparent;
+    cursor: pointer;
+    margin-left: -50px;
+
+}
+.header .button-one:active, .header .button-one:focus {
+    outline: none;
+    box-shadow: inset 1px 1px 10px -1px;
+}
+
+.header .button-one:hover {
+    background-color: #C0BDBD;
+    transition: background-color .6s ease-in-out;
+}
+.header .title {
+    font-size: 50px;
+    color: rgb(66,81,91);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.3;
+}
+.header .caption {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: rgb(66,81,91);
+    margin-bottom: 55px;
+}
+.header .button-two {
+    width: 284px;
+    height: 60px;
+    background-color: rgb(17,122,247);
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    border: 0;
+}
+.header .button-two:active, .header .button-two:focus {
+    outline: none;
+    box-shadow: inset 1px 1px 10px -1px;
+}
+
+.header .button-two:hover {
+    background-color: #777272;
+    transition: background-color .4s ease-in-out;
+}
+.header .button-two:active, .header .button-two:focus {
+    outline: none;
+}
+.header .button-img {
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+.header .block1 {
+    position: relative;
+    height: 520px;
+    margin-top: 100px;
+}
+.header .switch {
+    position: absolute;
+    bottom: 60px;
+    right: 450px;
+    margin: 0;
+    align-items: center;
+}
+.header .switch li {
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    background: transparent;
+    border: 1px solid blue;
+}
+.header .switch .active {
+    width: 10px;
+    height: 10px;
+    border: 2px solid blue;
+    margin-top: 2px;
+}
+
+
+/***Main-info****/
+
+.main-info {
+    background-color: #ffffff;
+    margin-top: 100px;
+}
+.main-info .third, .four {
+    margin-top: 32px;
+}
+.main-info .exxon-mobile {
+    background: url("../img/exxon.png") no-repeat center;
+    background-size: 100% 100%;
+    height: 361px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.main-info .exxon-mobile p {
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-top: 30px;
+    padding-left: 29px;
+}
+.main-info .exxon-mobile .site {
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: rgba(31,30,30,0.5);
+    border-radius: 15px;
+    width: 167px;
+    height: 30px;
+    border: 0;
+    margin-left: 29px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.main-info .talan {
+    background: url("../img/talan.png") no-repeat center;
+    height: 361px;
+    background-size: 100% 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.main-info .talan p {
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-top: 30px;
+    padding-left: 29px;
+}
+.main-info .talan .site {
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: rgba(31,30,30,0.5);
+    border-radius: 15px;
+    width: 84px;
+    height: 30px;
+    border: 0;
+    margin-left: 29px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.main-info .teenweek {
+    background: url("../img/teenweek.png") no-repeat center;
+    height: 361px;
+    background-size: 100% 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.main-info .teenweek p {
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-top: 30px;
+    padding-left: 29px;
+}
+.main-info .forms-teemweek {
+    display: flex;
+}
+.main-info .teenweek .site1 {
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: rgba(31,30,30,0.5);
+    border-radius: 15px;
+    width: 140px;
+    height: 30px;
+    border: 0;
+    margin-left: 29px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.main-info .teenweek .site2 {
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: rgba(31,30,30,0.5);
+    border-radius: 15px;
+    width: 96px;
+    height: 30px;
+    border: 0;
+    margin-left: 29px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.main-info .baseg {
+    background: url("../img/baseg.png") no-repeat center;
+    height: 361px;
+    background-size: 100% 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.main-info .baseg p {
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-top: 30px;
+    padding-left: 29px;
+}
+
+.main-info .baseg .site {
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: rgba(31,30,30,0.5);
+    border-radius: 15px;
+    width: 140px;
+    height: 30px;
+    border: 0;
+    margin-left: 29px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.main-info .ppd {
+    background: url("../img/ppd.png") no-repeat center;
+    height: 361px;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.main-info .ppd p {
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-top: 30px;
+    padding-left: 29px;
+}
+
+.main-info .ppd .site {
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: rgba(31,30,30,0.5);
+    border-radius: 15px;
+    width: 167px;
+    height: 30px;
+    border: 0;
+    margin-left: 29px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.main-info .kayros {
+    background: url("../img/kayros.png") no-repeat center;
+    height: 361px;
+    background-size: 100% 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.main-info .kayros p {
+    font-size: 20px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-top: 30px;
+    padding-left: 29px;
+}
+
+.main-info .kayros .site {
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: rgba(31,30,30,0.5);
+    border-radius: 15px;
+    width: 167px;
+    height: 30px;
+    border: 0;
+    margin-left: 29px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.main-info .spec {
+    background: url("../img/spec.png") no-repeat center;
+    height: 361px;
+    background-size: 100% 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+.main-info .spec p {
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-top: 30px;
+    padding-left: 29px;
+}
+.main-info .forms-spec {
+    display: flex;
+}
+.main-info .spec .site1 {
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: rgba(31,30,30,0.5);
+    border-radius: 15px;
+    width: 167px;
+    height: 30px;
+    border: 0;
+    margin-left: 29px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.main-info .spec .site2 {
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: rgba(31, 30, 30, 0.5);
+    border-radius: 15px;
+    width: 96px;
+    height: 30px;
+    border: 0;
+    margin-left: 29px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.main-info .site:hover {
+    background: #4E4A4A;
+    transition: background-color .4s ease-in-out;
+}
+.main-info .site1:hover {
+    background: #4E4A4A;
+    transition: background-color .4s ease-in-out;
+}
+.main-info .site2:hover {
+    background: #4E4A4A;
+    transition: background-color .4s ease-in-out;
+}
+.footer .site {
+    background-color: rgb(17,122,247);
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    width: 267px;
+    height: 60px;
+    border: 0;
+    margin-top: 32px;
+    margin-bottom: 255px;
+}
+.footer .site:active {
+    box-shadow: inset 1px 1px 10px -1px;
+}
+.footer .site:hover {
+    background-color: #909090;
+    transition: background-color .4s ease-in-out;
+}
+.footer .footer-photo {
+    margin-left: 13px;
+    margin-bottom: 3px;
+}
+.main-info .site:active, .main-info .site:focus {
+    outline: none;
+}
+.main-info .site1:active, .main-info .site1:focus {
+    outline: none;
+}
+.main-info .site2:active, .main-info .site2:focus {
+    outline: none;
+}
+.footer .site:active, .footer .site:focus {
+    outline: none;
+}
+
+
+
+
+/***Media queries***/
+
+@media all and (max-width: 991px) {
+    .main-info .exxon-mobile, .main-info .teenweek, .main-info .ppd, .main-info .kayros {
+        margin-bottom: 32px;
+    }
+    .header .collapse {
+        justify-content: start;
+
+    }
+    .header .logo {
+        margin-left: 150px;
+    }
+    .header .button-one {
+        margin: 0;
+    }
+    .header .number {
+        margin: 0;
+    }
+
+
+}
+
